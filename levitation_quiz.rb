@@ -1,7 +1,7 @@
 
 def levitation_quiz
   answer = gets.chomp
-	until 
+	until answer == "Wingardium Leviosa"
 	puts 'What is the spell that enacts levitation?'
 end
 
